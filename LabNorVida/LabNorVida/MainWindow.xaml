@@ -5,8 +5,513 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="LabNorVida" Height="720" Width="1280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Resources>
+        <Storyboard x:Key="LoginAnimation">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="618.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="597.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="575.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="554.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="533"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="511.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="490.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="468.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="447.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="426"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="checkBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0.8"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0.6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0.4"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.2"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0.15"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0.1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0.05"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-24"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-30"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-60"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-24"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-30"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-60"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-24"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-30"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-60"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-6"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-12"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-18"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-24"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="-30"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="-36"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="-42"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="-50"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="-60"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.5" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.6" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.7" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.8" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.9" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="0.25"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.1" Value="0.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.2" Value="0.75"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.3" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource LoginAnimation}"/>
+        </EventTrigger>
+    </Window.Triggers>
     <Grid>
-        
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="640">
+            <Rectangle.Fill>
+                <ImageBrush ImageSource="Log.png"/>
+            </Rectangle.Fill>
+            <Rectangle.Stroke>
+                <ImageBrush ImageSource="Log.png"/>
+            </Rectangle.Stroke>
+        </Rectangle>
+        <Grid x:Name="Login" Margin="97.356,160,183,181">
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="54" Margin="704.644,0,0,0" TextWrapping="Wrap" Text="Se connecter" VerticalAlignment="Top" Width="264" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold"/>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B"/>
+            <Path x:Name="path" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,124,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664"/>
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B"/>
+            <Path x:Name="path1" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,194,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664"/>
+            <CheckBox x:Name="checkBox" Content="Remember me !" HorizontalAlignment="Left" Height="18" Margin="704.644,230,0,0" VerticalAlignment="Top" Width="177" BorderBrush="#FF41B664"/>
+            <Button x:Name="button" Content="Se connecter" HorizontalAlignment="Left" Height="35" Margin="704.644,283,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18"/>
+            <Label x:Name="label" Content="Mot de passe oublié ?" HorizontalAlignment="Left" Height="28" Margin="782.644,351,0,0" VerticalAlignment="Top" Width="139"/>
+            <Image x:Name="image" Margin="132.644,12,707,254" Source="logoLab.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
+            <Label x:Name="label1" Content="    Laboratoire d'étude, expertise, assistance &#xD;&#xA;et contrôle qualité des travaux de construction &#xD;&#xA;                 de bâtiments et voiries." HorizontalAlignment="Left" Height="130.674" Margin="-9.997,183.663,0,0" VerticalAlignment="Top" Width="469.288" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="22">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.352"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Button x:Name="button1" Content="Inscription" HorizontalAlignment="Left" Height="28" Margin="107.982,351,0,0" VerticalAlignment="Top" Width="112" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="button2" Content="Détails" HorizontalAlignment="Left" Height="28" Margin="243.644,351,0,0" VerticalAlignment="Top" Width="71.333" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+
+        </Grid>
+        <Grid x:Name="Register" Margin="97.356,160,183,181">
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="54" Margin="604.644,0,0,0" TextWrapping="Wrap" Text="Créer un compte" VerticalAlignment="Top" Width="335" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold" Opacity="0"/>
+            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
+            <Path x:Name="path2" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,109,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
+            <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
+            <Path x:Name="path3" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,164.332,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
+            <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
+            <Path x:Name="path4" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,219.665,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
+            <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
+            <Path x:Name="path5" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,274,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
+            <Button x:Name="button3" Content="Créer un compte" HorizontalAlignment="Left" Height="35" Margin="604.644,313,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" Opacity="0"/>
+            <Label x:Name="label2" Content="Vous avez déja un compte ?" HorizontalAlignment="Left" Height="28" Margin="671.144,364,0,-13" VerticalAlignment="Top" Width="163" Opacity="0"/>
+            <Image x:Name="image1" Margin="37.81,10,821.833,276" Source="logoLab.png" Stretch="Fill" Height="93" Width="140" Opacity="0"/>
+            <Label x:Name="label3" Content="    Laboratoire d'étude, expertise, assistance &#xA;et contrôle qualité des travaux de construction &#xA;                 de bâtiments et voiries." HorizontalAlignment="Left" Height="130.674" Margin="-76.667,158.163,0,0" VerticalAlignment="Top" Width="469.288" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="18" Opacity="0">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.352"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Button x:Name="button4" Content="Se connecter" HorizontalAlignment="Left" Height="20.998" Margin="26.814,297.53,0,0" VerticalAlignment="Top" Width="90.5" Background="{x:Null}" Foreground="White" Opacity="0"/>
+            <Button x:Name="button5" Content="Détails" HorizontalAlignment="Left" Height="20.996" Margin="136.976,297.532,0,0" VerticalAlignment="Top" Width="61" Background="{x:Null}" Foreground="White" Opacity="0"/>
+
+        </Grid>
+
     </Grid>
 </Window>
