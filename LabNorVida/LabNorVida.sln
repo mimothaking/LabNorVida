@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Blend for Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LabNorVida", "LabNorVida\LabNorVida.csproj", "{99189455-975A-4DDE-8153-EF20B8776627}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99189455-975A-4DDE-8153-EF20B8776627}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99189455-975A-4DDE-8153-EF20B8776627}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99189455-975A-4DDE-8153-EF20B8776627}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99189455-975A-4DDE-8153-EF20B8776627}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {16B82806-F11A-4E2C-8369-F61B92D6EA42}
+	EndGlobalSection
+EndGlobal
