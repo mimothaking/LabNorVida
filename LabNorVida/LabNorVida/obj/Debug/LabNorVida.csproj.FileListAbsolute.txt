@@ -1,0 +1,15 @@
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.exe.config
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.exe
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.pdb
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.AssemblyReference.cache
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\MainWindow.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\App.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida_MarkupCompile.cache
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida_MarkupCompile.lref
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\MainWindow.baml
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.g.resources
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.Properties.Resources.resources
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.GenerateResource.cache
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.CoreCompileInputs.cache
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.exe
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.pdb
