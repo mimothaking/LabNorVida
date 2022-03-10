@@ -6,8 +6,252 @@
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
         Title="LabNorVida" Height="720" Width="1280" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Window.Resources>
+        <Storyboard x:Key="LoginAnimation">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="checkBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-640"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-640"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-640"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-640"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="rectangle">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-214"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label2">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-540"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-540"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-540"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-22"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-540"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="13.667"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="image1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label3">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="checkBox">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.486"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.254"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="button4">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="2.667"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.448"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1.286"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="button5">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="3"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+    </Window.Resources>
+    <Window.Triggers>
+        <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="button1">
+            <BeginStoryboard Storyboard="{StaticResource LoginAnimation}"/>
+        </EventTrigger>
+    </Window.Triggers>
     <Grid>
-        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="640">
+        <Rectangle x:Name="rectangle" HorizontalAlignment="Left" Height="720" VerticalAlignment="Top" Width="640" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
             <Rectangle.Fill>
                 <ImageBrush ImageSource="Log.png"/>
             </Rectangle.Fill>
@@ -16,14 +260,86 @@
             </Rectangle.Stroke>
         </Rectangle>
         <Grid x:Name="Login" Margin="97.356,160,183,181">
-            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="54" Margin="704.644,0,0,0" TextWrapping="Wrap" Text="Se connecter" VerticalAlignment="Top" Width="264" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold"/>
-            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B"/>
-            <Path x:Name="path" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,124,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664"/>
-            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B"/>
-            <Path x:Name="path1" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,194,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664"/>
-            <CheckBox x:Name="checkBox" Content="Remember me !" HorizontalAlignment="Left" Height="18" Margin="704.644,230,0,0" VerticalAlignment="Top" Width="177" BorderBrush="#FF41B664"/>
-            <Button x:Name="button" Content="Se connecter" HorizontalAlignment="Left" Height="35" Margin="704.644,283,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18"/>
-            <Label x:Name="label" Content="Mot de passe oublié ?" HorizontalAlignment="Left" Height="28" Margin="782.644,351,0,0" VerticalAlignment="Top" Width="139"/>
+            <TextBlock x:Name="textBlock" HorizontalAlignment="Left" Height="54" Margin="704.644,0,0,0" TextWrapping="Wrap" Text="Se connecter" VerticalAlignment="Top" Width="264" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,124,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path1" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,194,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <CheckBox x:Name="checkBox" Content="Remember me !" HorizontalAlignment="Left" Height="18" Margin="704.644,230,0,0" VerticalAlignment="Top" Width="177" BorderBrush="#FF41B664" RenderTransformOrigin="0.5,0.5">
+                <CheckBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </CheckBox.RenderTransform>
+            </CheckBox>
+            <Button x:Name="button" Content="Se connecter" HorizontalAlignment="Left" Height="35" Margin="704.644,283,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Label x:Name="label" Content="Mot de passe oublié ?" HorizontalAlignment="Left" Height="28" Margin="782.644,351,0,0" VerticalAlignment="Top" Width="139" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
             <Image x:Name="image" Margin="132.644,12,707,254" Source="logoLab.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
                 <Image.RenderTransform>
                     <TransformGroup>
@@ -67,18 +383,126 @@
 
         </Grid>
         <Grid x:Name="Register" Margin="97.356,160,183,181">
-            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="54" Margin="604.644,0,0,0" TextWrapping="Wrap" Text="Créer un compte" VerticalAlignment="Top" Width="335" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold" Opacity="0"/>
-            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
-            <Path x:Name="path2" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,109,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
-            <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
-            <Path x:Name="path3" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,164.332,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
-            <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
-            <Path x:Name="path4" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,219.665,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
-            <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0"/>
-            <Path x:Name="path5" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,274,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0"/>
-            <Button x:Name="button3" Content="Créer un compte" HorizontalAlignment="Left" Height="35" Margin="604.644,313,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" Opacity="0"/>
-            <Label x:Name="label2" Content="Vous avez déja un compte ?" HorizontalAlignment="Left" Height="28" Margin="671.144,364,0,-13" VerticalAlignment="Top" Width="163" Opacity="0"/>
-            <Image x:Name="image1" Margin="37.81,10,821.833,276" Source="logoLab.png" Stretch="Fill" Height="93" Width="140" Opacity="0"/>
+            <TextBlock x:Name="textBlock1" HorizontalAlignment="Left" Height="54" Margin="604.644,0,0,0" TextWrapping="Wrap" Text="Créer un compte" VerticalAlignment="Top" Width="335" FontSize="36" FontFamily="Microsoft YaHei" FontWeight="Bold" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <TextBlock.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBlock.RenderTransform>
+            </TextBlock>
+            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path2" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,109,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path3" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,164.332,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path4" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,219.665,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="White" FontSize="18" Foreground="#FF7E7B7B" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <TextBox.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </TextBox.RenderTransform>
+            </TextBox>
+            <Path x:Name="path5" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="604.644,274,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+            <Button x:Name="button3" Content="Créer un compte" HorizontalAlignment="Left" Height="35" Margin="604.644,313,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Label x:Name="label2" Content="Vous avez déja un compte ?" HorizontalAlignment="Left" Height="28" Margin="671.144,364,0,-13" VerticalAlignment="Top" Width="163" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Image x:Name="image1" Margin="37.81,10,821.833,276" Source="logoLab.png" Stretch="Fill" Height="93" Width="140" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+            </Image>
             <Label x:Name="label3" Content="    Laboratoire d'étude, expertise, assistance &#xA;et contrôle qualité des travaux de construction &#xA;                 de bâtiments et voiries." HorizontalAlignment="Left" Height="130.674" Margin="-76.667,158.163,0,0" VerticalAlignment="Top" Width="469.288" Foreground="White" RenderTransformOrigin="0.5,0.5" FontSize="18" Opacity="0">
                 <Label.RenderTransform>
                     <TransformGroup>
@@ -89,8 +513,26 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <Button x:Name="button4" Content="Se connecter" HorizontalAlignment="Left" Height="20.998" Margin="26.814,297.53,0,0" VerticalAlignment="Top" Width="90.5" Background="{x:Null}" Foreground="White" Opacity="0"/>
-            <Button x:Name="button5" Content="Détails" HorizontalAlignment="Left" Height="20.996" Margin="136.976,297.532,0,0" VerticalAlignment="Top" Width="61" Background="{x:Null}" Foreground="White" Opacity="0"/>
+            <Button x:Name="button4" Content="Se connecter" HorizontalAlignment="Left" Height="20.998" Margin="26.814,297.53,0,0" VerticalAlignment="Top" Width="90.5" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
+            <Button x:Name="button5" Content="Détails" HorizontalAlignment="Left" Height="20.996" Margin="136.976,297.532,0,0" VerticalAlignment="Top" Width="61" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5">
+                <Button.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Button.RenderTransform>
+            </Button>
 
         </Grid>
 
