@@ -13,3 +13,5 @@ C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabN
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.CoreCompileInputs.cache
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.exe
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.pdb
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\ButtonStyles.baml
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\App.baml
