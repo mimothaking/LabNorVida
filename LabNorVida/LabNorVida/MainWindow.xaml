@@ -11,13 +11,13 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBlock">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Username">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Password">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
@@ -26,7 +26,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="checkBox">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="LoginButton">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
@@ -72,7 +72,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Fullname">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
@@ -82,7 +82,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="UsernameR">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
@@ -92,7 +92,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="PasswordR">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
@@ -102,7 +102,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox5">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ConfPass">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
@@ -112,7 +112,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="RegisterButton">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-520"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.3" Value="-228.5"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="-12"/>
@@ -126,7 +126,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Fullname">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -134,7 +134,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="UsernameR">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -142,7 +142,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PasswordR">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -150,7 +150,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox5">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ConfPass">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -158,7 +158,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="RegisterButton">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
@@ -201,13 +201,13 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBlock">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Username">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Password">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path1">
@@ -216,7 +216,7 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="checkBox">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="LoginButton">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label">
@@ -261,8 +261,8 @@
         </Style>
         <SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
         <SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
-        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFF9F5F5"/>
+        <SolidColorBrush x:Key="Button.MouseOver.Border" Color="White"/>
         <SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
         <SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
         <SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
@@ -284,7 +284,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Username">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
@@ -294,7 +294,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Password">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
@@ -309,7 +309,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="LoginButton">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
@@ -348,7 +348,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Fullname">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
@@ -358,7 +358,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="UsernameR">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
@@ -368,7 +368,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="PasswordR">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
@@ -378,7 +378,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox5">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ConfPass">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
@@ -388,7 +388,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="button3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="RegisterButton">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0.98"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
@@ -426,7 +426,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox2">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Fullname">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
@@ -434,7 +434,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="UsernameR">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
@@ -442,7 +442,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox4">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="PasswordR">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
@@ -450,7 +450,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox5">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="ConfPass">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
@@ -458,7 +458,7 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button3">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="RegisterButton">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="605"/>
             </DoubleAnimationUsingKeyFrames>
@@ -488,7 +488,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Username">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-680"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-340"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
@@ -500,7 +500,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Password">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-680"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-340"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
@@ -518,7 +518,7 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="button">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="LoginButton">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-680"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-340"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
@@ -585,7 +585,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Email" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="Username" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" >
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -605,7 +605,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="Password" BorderThickness="0"  HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDown="Password_MouseDown" MouseDoubleClick="Password_MouseDoubleClick">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -635,7 +635,7 @@
                     </TransformGroup>
                 </CheckBox.RenderTransform>
             </CheckBox>
-            <Button x:Name="button" Content="Se connecter" HorizontalAlignment="Left" Height="35" Margin="704.644,283,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="LoginButton" Content="Se connecter" HorizontalAlignment="Left" Height="35" Margin="704.644,283,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="LoginButton_Click">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -675,7 +675,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <Button x:Name="button1" Content="Inscription" HorizontalAlignment="Left" Height="28" Margin="107.982,351,0,0" VerticalAlignment="Top" Width="112" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5"  >
+            <Button x:Name="button1" Content="Inscription" HorizontalAlignment="Left" Height="28" Margin="107.982,351,0,0" VerticalAlignment="Top" Width="112" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5" OpacityMask="White" Style="{DynamicResource ButtonStyle2}" Cursor="Hand"  >
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -686,7 +686,7 @@
                 </Button.RenderTransform>
 
             </Button>
-            <Button x:Name="button2" Content="Détails" HorizontalAlignment="Left" Height="28" Margin="243.644,351,0,0" VerticalAlignment="Top" Width="71.333" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="button2" Content="Détails" HorizontalAlignment="Left" Height="28" Margin="243.644,351,0,0" VerticalAlignment="Top" Width="71.333" Background="{x:Null}" Foreground="White" FontSize="16" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource ButtonStyle2}" Cursor="Hand">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -709,7 +709,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="textBox2" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="Fullname" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" BorderThickness="0">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -729,7 +729,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="textBox3" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="UsernameR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -749,7 +749,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="textBox4" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="PasswordR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -769,7 +769,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="textBox5" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="ConfPass" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -789,7 +789,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <Button x:Name="button3" Content="Créer un compte" HorizontalAlignment="Left" Height="35" Margin="604.644,313,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" Opacity="0" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="RegisterButton" Content="Créer un compte" HorizontalAlignment="Left" Height="35" Margin="604.644,313,0,0" VerticalAlignment="Top" Width="295" BorderBrush="#FF41B664" Background="#FF41B664" Foreground="White" FontSize="18" Opacity="0" RenderTransformOrigin="0.5,0.5" Cursor="Hand" Click="RegisterButton_Click_1">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -829,7 +829,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <Button x:Name="button4" Content="Se connecter" HorizontalAlignment="Left" Height="20.998" Margin="26.814,297.53,0,0" VerticalAlignment="Top" Width="90.5" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="button4" Content="Se connecter" HorizontalAlignment="Left" Height="22" Margin="26.814,297.53,0,0" VerticalAlignment="Top" Width="90.5" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource ButtonStyle2}" Cursor="Hand">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -839,7 +839,7 @@
                     </TransformGroup>
                 </Button.RenderTransform>
             </Button>
-            <Button x:Name="button5" Content="Détails" HorizontalAlignment="Left" Height="20.996" Margin="136.976,297.532,0,0" VerticalAlignment="Top" Width="61" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5">
+            <Button x:Name="button5" Content="Détails" HorizontalAlignment="Left" Height="22" Margin="136.976,297.532,0,0" VerticalAlignment="Top" Width="61" Background="{x:Null}" Foreground="White" Opacity="0" RenderTransformOrigin="0.5,0.5" Style="{DynamicResource ButtonStyle2}" Cursor="Hand">
                 <Button.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
