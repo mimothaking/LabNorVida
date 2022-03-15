@@ -44,7 +44,7 @@ namespace LabNorVida
 
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM `technicien` WHERE `username` = @Username AND `password` = @Password", db.GetConnection());
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `technicien` WHERE `Username` = @Username AND `Password` = @Password", db.GetConnection());
 
             command.Parameters.Add("@Username", MySqlDbType.VarChar).Value = username;
             command.Parameters.Add("@Password", MySqlDbType.VarChar).Value = password;
@@ -59,11 +59,11 @@ namespace LabNorVida
             {
                 this.Hide();
                 vrac vracpage = new vrac();
-                vracpage.Show();
+                vracpage.Show();    
             }
             else
             {
-                MessageBox.Show("NO");
+                MessageBox.Show("Please enter a correct Username or Password!");
             }
 
         }
@@ -108,35 +108,36 @@ namespace LabNorVida
             //Adding a new user
 
             DB db = new DB();
-            MySqlCommand command = new MySqlCommand("INSERT INTO `technicien`(`Fullname`, `Username`, `Password`) VALUES (@Fullname, @Username, @Password)", db.GetConnection());
+            MySqlCommand command = new MySqlCommand("INSERT INTO `technicien`(`Fullname`, `Username`, `Password`) VALUES (@Fullname, @usn, @pass)", db.GetConnection());
 
             command.Parameters.Add("@Fullname", MySqlDbType.VarChar).Value = Fullname.Text;
-            command.Parameters.Add("@Username", MySqlDbType.VarChar).Value = UsernameR.Text;
-            command.Parameters.Add("@Password", MySqlDbType.VarChar).Value = PasswordR.Text;
+            command.Parameters.Add("@usn", MySqlDbType.VarChar).Value = UsernameR.Text;
+            command.Parameters.Add("@pass", MySqlDbType.VarChar).Value = PasswordR.Text;
 
             //open Connection
             db.openConnection();
 
             if(checkUsername())
             {
-                MessageBox.Show("Username already Used!!");
-            }
-            else
-            { 
-            //execute query
-            if (command.ExecuteNonQuery() == 1)
-            {
-                MessageBox.Show("Account Created!");
+                MessageBox.Show("This username already exists !!");
             }
             else
             {
-                MessageBox.Show("Error!");
+                 //execute query
+                  if (command.ExecuteNonQuery() == 1)
+                   {
+                      MessageBox.Show("Account Created!");
+                   }
+                  else
+                  {
+                      MessageBox.Show("Error!");
+                  }
             }
-            }
+
             //close conn
             db.closeConnection();
 
-            
+
         }
 
         //Checking if username already exists
@@ -144,17 +145,17 @@ namespace LabNorVida
         {
             DB db = new DB();
 
-            String username = Username.Text;
-            
+            String username = UsernameR.Text;
+
 
             DataTable table = new DataTable();
 
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM `technicien` WHERE `username` = @Username", db.GetConnection());
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `technicien` WHERE `Username` = @usn", db.GetConnection());
 
-            command.Parameters.Add("@Username", MySqlDbType.VarChar).Value = username;
-            
+            command.Parameters.Add("@usn", MySqlDbType.VarChar).Value = username;
+
 
             adapter.SelectCommand = command;
 
@@ -171,7 +172,14 @@ namespace LabNorVida
                 return false;
             }
 
-           
+
         }
+
     }
+
+
 }
+            
+          
+    
+
