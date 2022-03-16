@@ -17,9 +17,7 @@ using System.Data;
 
 namespace LabNorVida
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+   
     public partial class MainWindow : Window
     {
 
@@ -30,6 +28,7 @@ namespace LabNorVida
         public MainWindow()
         {
             InitializeComponent();
+            
         }
 
 
@@ -175,6 +174,10 @@ namespace LabNorVida
 
         }
 
+        private void Password_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            
+        }
     }
 
 

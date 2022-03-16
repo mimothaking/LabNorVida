@@ -130,5 +130,11 @@
   <ItemGroup>
     <Resource Include="xIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="arrowDown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="arrowUp.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

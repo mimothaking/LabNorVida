@@ -585,7 +585,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="Username" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" >
+            <TextBox x:Name="Username" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" MaxLines="1" MaxLength="15" >
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -605,7 +605,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="Password" BorderThickness="0"  HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDown="Password_MouseDown" MouseDoubleClick="Password_MouseDoubleClick">
+            <TextBox x:Name="Password" BorderThickness="0"  HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" Text="Password" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDown="Password_MouseDown" MouseDoubleClick="Password_MouseDoubleClick" MaxLines="1" MaxLength="15">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -709,7 +709,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="Fullname" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" BorderThickness="0">
+            <TextBox x:Name="Fullname" HorizontalAlignment="Left" Height="28" Margin="604.644,81,0,0" TextWrapping="Wrap" Text="Nom complet" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" BorderThickness="0" MaxLength="25" MaxLines="1">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -729,7 +729,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="UsernameR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="UsernameR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,136.332,0,0" TextWrapping="Wrap" Text="Username" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -749,7 +749,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="PasswordR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="PasswordR" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" Text="Mot de passe " VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -769,7 +769,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="ConfPass" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}">
+            <TextBox x:Name="ConfPass" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" Text="Confirmation du mot de passe" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
