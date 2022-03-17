@@ -1694,6 +1694,32 @@
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
         </Storyboard>
+        <Storyboard x:Key="SuccessMessage">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="rectangle3">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label16">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:1.5" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:2.5" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="rectangle3">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-136.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-136.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="13.5"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="label16">
+                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1" Value="-136.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:1.5" Value="-136.5"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:2.5" Value="13.5"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
     </Window.Resources>
     <Window.Triggers>
         <EventTrigger RoutedEvent="UIElement.MouseDown" SourceName="SideIco">
@@ -1722,6 +1748,9 @@
         <EventTrigger RoutedEvent="UIElement.MouseDown" SourceName="ArrowDown_Copy">
             <BeginStoryboard x:Name="CloseMesurePORO_BeginStoryboard1" Storyboard="{StaticResource CloseMesurePORO}"/>
             <BeginStoryboard x:Name="OpenMesureVRAC_BeginStoryboard1" Storyboard="{StaticResource OpenMesureVRAC}"/>
+        </EventTrigger>
+        <EventTrigger RoutedEvent="FrameworkElement.Loaded">
+            <BeginStoryboard Storyboard="{StaticResource SuccessMessage}"/>
         </EventTrigger>
     </Window.Triggers>
     <Grid x:Name="grid">
@@ -2063,6 +2092,29 @@
             <Label Content="Etuve ventilé" HorizontalAlignment="Left" Height="34" Margin="45,260.26,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
             <TextBox HorizontalAlignment="Left" Height="27.74" Margin="48,299.26,0,0" TextWrapping="Wrap" Text="Default" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
             <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2" Margin="48,325,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
+        </Grid>
+        <Grid x:Name="LoginSuccess" Margin="342,738,330,-140">
+            <Rectangle x:Name="rectangle3" Fill="#FF41B664" HorizontalAlignment="Left" Height="81.5" VerticalAlignment="Top" Width="404.828" RenderTransformOrigin="0.5,0.5" Margin="109.5,7.5,0,0" RadiusX="22" RadiusY="21" Visibility="Hidden">
+                <Rectangle.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Rectangle.RenderTransform>
+            </Rectangle>
+            <Label x:Name="label16" Content="Welcome back BOSS !" HorizontalAlignment="Left" Height="56.783" Margin="180.718,24.55,0,0" VerticalAlignment="Top" Width="274.226" FontWeight="Bold" FontSize="24" Foreground="White" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+
         </Grid>
 
     </Grid>
