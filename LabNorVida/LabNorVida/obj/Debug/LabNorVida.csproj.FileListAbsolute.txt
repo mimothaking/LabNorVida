@@ -1,7 +1,6 @@
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.exe.config
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.exe
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\LabNorVida.pdb
-C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.AssemblyReference.cache
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\MainWindow.g.cs
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\App.g.cs
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida_MarkupCompile.cache
@@ -35,3 +34,10 @@ C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\Syst
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\MySql.Data.xml
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.exe.config
 C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.CopyComplete
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\UserAlreadyUsed.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\UserAlreadyUsed.baml
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.csproj.AssemblyReference.cache
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\AccountCreated.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LoginERROR.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\AccountCreated.baml
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LoginERROR.baml

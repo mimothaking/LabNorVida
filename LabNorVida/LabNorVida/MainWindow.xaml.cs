@@ -62,7 +62,8 @@ namespace LabNorVida
             }
             else
             {
-                MessageBox.Show("Please enter a correct Username or Password!");
+                LoginERROR le = new LoginERROR();
+                le.Show();
             }
 
         }
@@ -118,14 +119,16 @@ namespace LabNorVida
 
             if(checkUsername())
             {
-                MessageBox.Show("This username already exists !!");
+                UserAlreadyUsed uae = new UserAlreadyUsed();
+                uae.Show();
             }
             else
             {
                  //execute query
                   if (command.ExecuteNonQuery() == 1)
                    {
-                      MessageBox.Show("Account Created!");
+                    AccountCreated ac = new AccountCreated();
+                    ac.Show();
                    }
                   else
                   {
