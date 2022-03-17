@@ -136,5 +136,8 @@
   <ItemGroup>
     <Resource Include="arrowUp.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="avatarIcon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
