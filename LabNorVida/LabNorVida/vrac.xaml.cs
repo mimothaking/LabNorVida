@@ -22,6 +22,8 @@ namespace LabNorVida
         public vrac()
         {
             InitializeComponent();
+
+
         }
     }
 }
