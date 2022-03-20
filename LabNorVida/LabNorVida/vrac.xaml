@@ -1945,7 +1945,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="21" Margin="-237.5,240.837,0,0" TextWrapping="Wrap" Text="DateTime.Now"  VerticalAlignment="Top" Width="132" Background="{x:Null}" Foreground="#FF8B8585" BorderBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}"  BorderThickness="0" Visibility="Hidden">
+            <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="21" Margin="-237.5,240.837,0,0" TextWrapping="Wrap" Text="DateEs"  VerticalAlignment="Top" Width="132" Background="{x:Null}" Foreground="#FF8B8585" BorderBrush="{x:Null}" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}"  BorderThickness="0" Visibility="Hidden">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
