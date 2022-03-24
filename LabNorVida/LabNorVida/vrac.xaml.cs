@@ -14,9 +14,7 @@ using System.Windows.Shapes;
 
 namespace LabNorVida
 {
-    /// <summary>
-    /// Interaction logic for vrac.xaml
-    /// </summary>
+   
     public partial class vrac : Window
     {
         public vrac()
@@ -24,6 +22,11 @@ namespace LabNorVida
             InitializeComponent();
 
 
+        }
+
+        private void window_Loaded(object sender, RoutedEventArgs e)
+        {
+            label.Content = Globals.usrName;
         }
     }
 }

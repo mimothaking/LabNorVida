@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         xmlns:Themes="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2" x:Name="window" x:Class="LabNorVida.vrac"
-        mc:Ignorable="d" Height="720" Width="1278" Background="White" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Foreground="Black">
+        mc:Ignorable="d" Height="720" Width="1278" Background="White" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" Foreground="Black" Loaded="window_Loaded">
     <Window.Resources>
         <Style x:Key="FocusVisual">
             <Setter Property="Control.Template">
@@ -537,131 +537,147 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="244"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label3">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="comboBox">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path2">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label4">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="comboBox1">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path3">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label5">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="checkBox">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path4">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-240"/>
+                <EasingDoubleKeyFrame KeyTime="0" Value="-390"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="240"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label1">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox1">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path1">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label3">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="comboBox">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path2">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label4">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="comboBox1">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path3">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label5">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="checkBox">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path4">
-                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="SideIco">
@@ -681,9 +697,12 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image1">
+                <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Hidden}"/>
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image1">
+                <EasingDoubleKeyFrame KeyTime="0" Value="-150"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="63.5"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" Storyboard.TargetName="image1">
@@ -792,58 +811,64 @@
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label1">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label2">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="textBox1">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label3">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="comboBox">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path2">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label4">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="comboBox1">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path3">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="label5">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="checkBox">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path4">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-255"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-390"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="rectangle">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="58"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="SideIco">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="image1">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
+            </ObjectAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="image1">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-135"/>
             </DoubleAnimationUsingKeyFrames>
         </Storyboard>
         <Storyboard x:Key="OpenMesureVRAC">
@@ -1398,6 +1423,7 @@
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ArrowDownPORO_Copy">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ArrowDownPORO_Copy">
@@ -1524,12 +1550,15 @@
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ArrowDown_Copy">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ArrowDown_Copy">
+                <DiscreteObjectKeyFrame KeyTime="0:0:0.1" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="ArrowDown">
+                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="ArrowDown">
@@ -1778,33 +1807,33 @@
             </Image>
             <Label x:Name="label7" Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="34" Margin="60,10.26,0,0" VerticalAlignment="Top" Width="424.5" FontSize="16" FontWeight="Bold" Foreground="Black"/>
             <Label x:Name="label8" Content="Masse du conteneur vide (Kg)" HorizontalAlignment="Left" Height="37" Margin="18,89,0,-71.74" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox2" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox3" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox4" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,133,0,-99.48" TextWrapping="Wrap"  VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox2" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox3" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox4" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,133,0,-99.48" TextWrapping="Wrap"  VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label9" Content="[ m1 ]" HorizontalAlignment="Left" Height="30.527" Margin="594.384,89,0,-65.267" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path5" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path6" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path7" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="473.847,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label10" Content="Masse du conteneur + échantillion (Kg)" HorizontalAlignment="Left" Height="37" Margin="18,196,0,-178.74" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox5" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox6" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox7" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox5" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox6" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox7" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,240,0,-206.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label11" Content="[ m2 ]" HorizontalAlignment="Left" Height="30.527" Margin="594.384,196,0,-172.267" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path8" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,260.74,0,-208.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path9" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,260.74,0,-208.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path10" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="473.847,260.74,0,-208.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label12" Content="Masse du l'échantillion (g)" HorizontalAlignment="Left" Height="37" Margin="18,297,0,-279.74" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox8" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox9" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox10" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox8" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox9" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox10" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,341,0,-307.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label13" Content="[ m ]" HorizontalAlignment="Left" Height="30.527" Margin="603.384,297,0,-273.267" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path11" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,361.74,0,-309.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path12" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,361.74,0,-309.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path13" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="473.847,361.74,0,-309.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label14" Content="Volume du conteneur (m3)" HorizontalAlignment="Left" Height="37" Margin="18,397,0,-379.74" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox11" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox12" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox13" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox11" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox12" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox13" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,441,0,-407.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label15" Content="[ v ]" HorizontalAlignment="Left" Height="30.527" Margin="609.384,397,0,-373.267" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path14" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,461.74,0,-409.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path15" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,461.74,0,-409.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
@@ -1861,17 +1890,17 @@
                 </Label.RenderTransform>
             </Label>
             <Label x:Name="label8_Copy" Content="Masse du conteneur vide (Kg)" HorizontalAlignment="Left" Height="37" Margin="18,89,0,-71.74" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox2_Copy" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox3_Copy" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox4_Copy" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox2_Copy" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox3_Copy" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox4_Copy" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,133,0,-99.48" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label9_Copy" Content="[ m1 ]" HorizontalAlignment="Left" Height="30.527" Margin="594.384,89,0,-65.267" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path5_Copy" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path6_Copy" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden" d:IsLocked="True"/>
             <Path x:Name="path7_Copy" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="473.847,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label8_Copy1" Content="Masse du conteneur vide (Kg)" HorizontalAlignment="Left" Height="37" Margin="18,171.5,0,-154.24" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox2_Copy1" local:TextboxExtensions.Placeholder="Valeur 1" HorizontalAlignment="Left" Height="20.74" Margin="23.336,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox3_Copy1" local:TextboxExtensions.Placeholder="Valeur 2" HorizontalAlignment="Left" Height="20.74" Margin="243.347,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox4_Copy1" local:TextboxExtensions.Placeholder="Valeur 3" HorizontalAlignment="Left" Height="20.74" Margin="476.692,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox2_Copy1" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox3_Copy1" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="textBox4_Copy1" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label9_Copy1" Content="[ m1 ]" HorizontalAlignment="Left" Height="30.527" Margin="594.384,171.5,0,-147.767" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path5_Copy1" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,236.24,0,-183.98" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path6_Copy1" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,236.24,0,-183.98" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
@@ -1895,7 +1924,7 @@
         <Image x:Name="SideIco" Margin="4.5,0,1228.333,670.5" Source="sidepa.png" Stretch="Fill" OpacityMask="#FFFFE2E2" Cursor="Hand"/>
         <Grid x:Name="SidePannel" Margin="40,144,1045,19.491">
 
-            <Label x:Name="label" Content="Nom technicien" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="193" FontSize="22" Foreground="Black" RenderTransformOrigin="0.5,0.5" Margin="-240,0,0,0" Visibility="Hidden">
+            <Label x:Name="label" HorizontalAlignment="Left" Height="46" VerticalAlignment="Top" Width="193" FontSize="22" Foreground="Black" RenderTransformOrigin="0.5,0.5" Margin="-240,0,0,0" Visibility="Hidden">
                 <Label.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -1915,7 +1944,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <TextBox x:Name="textBox" local:TextboxExtensions.Placeholder="Réf" HorizontalAlignment="Left" Height="21" Margin="-237.5,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="{x:Null}" Foreground="#FF8B8585" RenderTransformOrigin="0.5,0.5" Visibility="Hidden" SelectionBrush="White" BorderBrush="{x:Null}"  BorderThickness="0">
+            <TextBox x:Name="textBox" local:TextboxExtensions.Placeholder="Réf"  HorizontalAlignment="Left" Height="21" Margin="-237.5,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="132" Background="{x:Null}" Foreground="#FF8B8585" RenderTransformOrigin="0.5,0.5" Visibility="Hidden" SelectionBrush="White" BorderBrush="{x:Null}"  BorderThickness="0">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -1975,7 +2004,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Height="17.5" Margin="-234.5,338.67,0,0" VerticalAlignment="Top" Width="152" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" Style="{DynamicResource ComboBoxStyle1}" Template="{DynamicResource ComboBoxEditableTemplate}" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+            <ComboBox x:Name="comboBox" HorizontalAlignment="Left" BorderThickness="0" Height="17.5" Margin="-234.5,338.67,0,0" VerticalAlignment="Top" Width="152" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" Style="{DynamicResource ComboBoxStyle1}" Template="{DynamicResource ComboBoxEditableTemplate}" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
                 <ComboBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -2005,7 +2034,7 @@
                     </TransformGroup>
                 </Label.RenderTransform>
             </Label>
-            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left" Height="17.5" Margin="-234.5,445.17,0,0" VerticalAlignment="Top" Width="152" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" Style="{DynamicResource ComboBoxStyle1}" Template="{DynamicResource ComboBoxEditableTemplate}" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
+            <ComboBox x:Name="comboBox1" HorizontalAlignment="Left"  BorderThickness="0" Height="17.5" Margin="-234.5,445.17,0,0" VerticalAlignment="Top" Width="152" Foreground="Black" BorderBrush="{x:Null}" Background="{x:Null}" Style="{DynamicResource ComboBoxStyle1}" Template="{DynamicResource ComboBoxEditableTemplate}" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
                 <ComboBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -2081,16 +2110,16 @@
             <Rectangle Fill="White" HorizontalAlignment="Left" Height="360" Stroke="#FFEBEBEB" VerticalAlignment="Top" Width="332" StrokeThickness="5"
 />
             <Label Content="Balance" HorizontalAlignment="Left" Height="34" Margin="45,20.26,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
-            <TextBox local:TextboxExtensions.Placeholder="Default" HorizontalAlignment="Left" Height="27.74" Margin="48,59.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{DynamicResource TextBox.Static.Background}"/>
-            <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2" Margin="48,85,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
+            <TextBox local:TextboxExtensions.Placeholder="Default" BorderThickness="0" HorizontalAlignment="Left" Height="27.74" Margin="48,59.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{DynamicResource TextBox.Static.Background}"/>
+            <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2"  Margin="48,85,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
             <Label Content="Coteneur" HorizontalAlignment="Left" Height="34" Margin="45,100.26,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
-            <TextBox local:TextboxExtensions.Placeholder="Default" HorizontalAlignment="Left" Height="27.74" Margin="48,139.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
+            <TextBox local:TextboxExtensions.Placeholder="Default" BorderThickness="0" HorizontalAlignment="Left" Height="27.74" Margin="48,139.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
             <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2" Margin="48,165,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
             <Label Content="Thérmométre" HorizontalAlignment="Left" Height="34" Margin="45,180.26,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
-            <TextBox local:TextboxExtensions.Placeholder="Default" HorizontalAlignment="Left" Height="27.74" Margin="48,219.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
+            <TextBox local:TextboxExtensions.Placeholder="Default" BorderThickness="0" HorizontalAlignment="Left" Height="27.74" Margin="48,219.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
             <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2" Margin="48,245,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
             <Label Content="Etuve ventilé" HorizontalAlignment="Left" Height="34" Margin="45,260.26,0,0" VerticalAlignment="Top" Width="144" FontSize="22"/>
-            <TextBox local:TextboxExtensions.Placeholder="Default" HorizontalAlignment="Left" Height="27.74" Margin="48,299.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
+            <TextBox local:TextboxExtensions.Placeholder="Default" BorderThickness="0" HorizontalAlignment="Left" Height="27.74" Margin="48,299.26,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="230" FontSize="16" BorderBrush="{x:Null}"/>
             <Path Data="M880,182 L1110,182" Fill="White" HorizontalAlignment="Left" Height="2" Margin="48,325,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="235"/>
         </Grid>
         <Grid x:Name="LoginSuccess" Margin="342,738,330,-140">
@@ -2116,6 +2145,8 @@
             </Label>
 
         </Grid>
+
+        <Button Content="Valider" HorizontalAlignment="Left" Height="55.5" Margin="907,600,0,0" VerticalAlignment="Top" Width="180" FontSize="20" Background="#FF41B664" BorderBrush="White" Foreground="White"/>
 
     </Grid>
 </Window>

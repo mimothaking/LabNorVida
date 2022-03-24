@@ -23,12 +23,12 @@ namespace LabNorVida
 
 
 
-
+        
 
         public MainWindow()
         {
             InitializeComponent();
-
+            
         }
                
 
@@ -56,6 +56,8 @@ namespace LabNorVida
             //Checking if the user exists or not !
             if (table.Rows.Count > 0)
             {
+
+                Globals.usrName = table.Rows[0]["Username"].ToString();
                 this.Hide();
                 vrac vracpage = new vrac();
                 vracpage.Show();    
@@ -183,6 +185,9 @@ namespace LabNorVida
         {
             
         }
+
+       
+
     }
 
 
