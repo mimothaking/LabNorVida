@@ -84,3 +84,4 @@ C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNo
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\LabNorVida.pdb
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\bin\Debug\MySql.Data.dll
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\GeneratedInternalTypeHelper.g.cs

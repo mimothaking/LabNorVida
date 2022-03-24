@@ -786,7 +786,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="Username" local:TextboxExtensions.Placeholder="Nom d'utilisateur" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" MaxLines="1" MaxLength="15" >
+            <TextBox x:Name="Username" local:TextboxExtensions.Placeholder="Nom d'utilisateur" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{DynamicResource Button.Disabled.Foreground}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" MaxLines="1" MaxLength="15" >
                
                 <TextBox.RenderTransform>
                     <TransformGroup>

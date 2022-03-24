@@ -63,7 +63,7 @@
     <Compile Include="AccountCreated.xaml.cs">
       <DependentUpon>AccountCreated.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="placeHolder.cs" />
     <Compile Include="DB.cs" />
     <Compile Include="LoginERROR.xaml.cs">
       <DependentUpon>LoginERROR.xaml</DependentUpon>
