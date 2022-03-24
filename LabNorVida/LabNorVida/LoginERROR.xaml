@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
-        Title="LoginERROR"  Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="LoginERROR"  Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" BorderBrush="Red" BorderThickness="5">
     <Grid>
         <Label Content="Please enter a correct Username or&#xD;&#xA;                    Password !" HorizontalAlignment="Left" Height="43.073" Margin="76.352,108.143,0,0" VerticalAlignment="Top" Width="288.072" FontWeight="Bold" FontSize="14"/>
         <Image Margin="150,10,160.424,141.333" Source="CautionIcon.png" Stretch="Fill"/>

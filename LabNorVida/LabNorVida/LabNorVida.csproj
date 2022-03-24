@@ -165,5 +165,8 @@
   <ItemGroup>
     <Resource Include="CautionIcon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="VerifySuccess.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

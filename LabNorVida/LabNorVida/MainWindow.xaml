@@ -17,9 +17,6 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Password">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="540"/>
             </DoubleAnimationUsingKeyFrames>
@@ -222,9 +219,6 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Password">
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path1">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
@@ -271,9 +265,6 @@
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path">
-                <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Hidden}"/>
-            </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="Password">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.4" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="path1">
@@ -431,11 +422,6 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="path">
-                <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
-            </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="Password">
                 <EasingDoubleKeyFrame KeyTime="0" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="0"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0.985"/>
@@ -641,12 +627,6 @@
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="Password">
-                <EasingDoubleKeyFrame KeyTime="0" Value="-680"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-340"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="-265"/>
-                <EasingDoubleKeyFrame KeyTime="0:0:0.4" Value="0"/>
-            </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" Storyboard.TargetName="path1">
                 <EasingDoubleKeyFrame KeyTime="0" Value="-680"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.1" Value="-340"/>
@@ -787,7 +767,7 @@
                 </TextBlock.RenderTransform>
             </TextBlock>
             <TextBox x:Name="Username" local:TextboxExtensions.Placeholder="Nom d'utilisateur" BorderThickness="0" HorizontalAlignment="Left" Height="28" Margin="704.644,96,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{DynamicResource Button.Disabled.Foreground}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDoubleClick="Username_MouseDoubleClick" MaxLines="1" MaxLength="15" >
-               
+
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -807,16 +787,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="Password" BorderThickness="0" local:TextboxExtensions.Placeholder="Mot De Pass" HorizontalAlignment="Left" Height="28" Margin="704.644,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MouseDown="Password_MouseDown" MouseDoubleClick="Password_MouseDoubleClick" MaxLines="1" MaxLength="15">
-                <TextBox.RenderTransform>
-                    <TransformGroup>
-                        <ScaleTransform/>
-                        <SkewTransform/>
-                        <RotateTransform/>
-                        <TranslateTransform/>
-                    </TransformGroup>
-                </TextBox.RenderTransform>
-            </TextBox>
+            <PasswordBox x:Name="Password" HorizontalAlignment="Left" Height="28" Margin="705.644,167,0,0" VerticalAlignment="Top" Width="294" BorderThickness="0" BorderBrush="White" FontSize="18"/>
             <Path x:Name="path1" Data="M802,284 L1096,284" HorizontalAlignment="Left" Height="1" Margin="704.644,194,0,0" Stretch="Fill" VerticalAlignment="Top" Width="295" Fill="#FF41B664" Stroke="#FF41B664" RenderTransformOrigin="0.5,0.5">
                 <Path.RenderTransform>
                     <TransformGroup>
@@ -911,7 +882,7 @@
                     </TransformGroup>
                 </TextBlock.RenderTransform>
             </TextBlock>
-            <TextBox x:Name="Fullname" HorizontalAlignment="Left" Height="28" local:TextboxExtensions.Placeholder="Nom Complet" Margin="604.644,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" BorderThickness="0" MaxLength="25" MaxLines="1" Visibility="Hidden">
+            <TextBox x:Name="Fullname" HorizontalAlignment="Left" Height="28" local:TextboxExtensions.Placeholder="Nom complet" Margin="604.644,81,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" BorderThickness="0" MaxLength="25" MaxLines="1" Visibility="Hidden">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -951,7 +922,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="PasswordR" BorderThickness="0" HorizontalAlignment="Left" local:TextboxExtensions.Placeholder="Mot De Pass" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15" Visibility="Hidden">
+            <TextBox x:Name="PasswordR" BorderThickness="0" HorizontalAlignment="Left" local:TextboxExtensions.Placeholder="Mot de passe" Height="28" Margin="604.644,191.665,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15" Visibility="Hidden">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -971,7 +942,7 @@
                     </TransformGroup>
                 </Path.RenderTransform>
             </Path>
-            <TextBox x:Name="ConfPass" BorderThickness="0" HorizontalAlignment="Left" local:TextboxExtensions.Placeholder="Confirmation MDPass" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15" Visibility="Hidden">
+            <TextBox x:Name="ConfPass" BorderThickness="0" HorizontalAlignment="Left" local:TextboxExtensions.Placeholder="Retapez le mot de passe" Height="28" Margin="604.644,246,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="294" TextAlignment="Justify" Background="{x:Null}" BorderBrush="{x:Null}" FontSize="18" Foreground="#FF979393" Opacity="0" RenderTransformOrigin="0.5,0.5" SelectionBrush="{x:Null}" MaxLines="1" MaxLength="15" Visibility="Hidden">
                 <TextBox.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>

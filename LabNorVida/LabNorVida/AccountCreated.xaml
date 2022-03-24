@@ -5,16 +5,19 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
-        Title="AccountCreated"  Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="AccountCreated"  Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" BorderBrush="#41b664" BorderThickness="5">
     <Grid>
         <Label Content="Account created successfully !" HorizontalAlignment="Left" Height="43.073" Margin="94.352,114.143,0,0" VerticalAlignment="Top" Width="288.072" FontWeight="Bold" FontSize="14"/>
-        <Image Margin="150,10,160.424,141.333" Source="VerifySuccess.png" Stretch="Fill"/>
-        <Button  HorizontalAlignment="Left" Height="34" Margin="136,174,0,0" VerticalAlignment="Top" Width="116" BorderBrush="Red" Background="White" BorderThickness="0" Click="Button_Click">
+        <Image Margin="153,14.5,157.424,136.833" Source="VerifySuccess.png" Stretch="Fill"/>
+
+
+        <Button  HorizontalAlignment="Left" Height="34" Margin="131.5,168.5,0,0" VerticalAlignment="Top" Width="116" BorderBrush="{DynamicResource Button.MouseOver.Background}" Background="White" BorderThickness="1.5" Click="Button_Click" Style="{DynamicResource ButtonStyle2}" Cursor="Hand">
             <Button.Content>
-                <Border CornerRadius="5" Height="30.5" Width="114" Margin="0" BorderBrush="#FF00D257" BorderThickness="2" >
+                
                     <TextBlock Text="OK !" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
-                </Border>
+               
             </Button.Content>
         </Button>
+        
     </Grid>
 </Window>

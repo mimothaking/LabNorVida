@@ -23,7 +23,7 @@ namespace LabNorVida
 
 
 
-        
+       
 
         public MainWindow()
         {
@@ -37,7 +37,7 @@ namespace LabNorVida
             DB db = new DB();
 
             String username = Username.Text;
-            String password = Password.Text;
+            String password = Password.Password;
 
             DataTable table = new DataTable();
 
@@ -56,7 +56,6 @@ namespace LabNorVida
             //Checking if the user exists or not !
             if (table.Rows.Count > 0)
             {
-
                 Globals.usrName = table.Rows[0]["Username"].ToString();
                 this.Hide();
                 vrac vracpage = new vrac();
@@ -91,10 +90,10 @@ namespace LabNorVida
 
         private void Password_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            String pswd = Password.Text;
+            String pswd = Password.Password;
             if (pswd.Equals("Password"))
             {
-                Password.Text = "";
+                Password.Password = "";
             }
         }
 

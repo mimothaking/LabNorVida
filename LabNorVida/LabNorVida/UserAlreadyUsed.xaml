@@ -5,12 +5,12 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
-        Title="UserAlreadyUsed" Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None">
+        Title="UserAlreadyUsed" Height="233.333" Width="392.424" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" BorderBrush="#FFFF0C0C" BorderThickness="5">
     <Grid>
-        
+
         <Label Content="                  Username already exists !! &#xD;&#xA;               Please enter a different one :D" HorizontalAlignment="Left" Height="58" Margin="30,98,0,0" VerticalAlignment="Top" Width="334.424" FontWeight="Bold" FontSize="14"/>
         <Image Margin="150,10,160.424,141.333" Source="CautionIcon.png" Stretch="Fill"/>
-        <Button  HorizontalAlignment="Left" Height="34" Margin="136,174,0,0" VerticalAlignment="Top" Width="116" BorderBrush="Red" Background="White" BorderThickness="0" Click="Button_Click">
+        <Button  HorizontalAlignment="Left" Height="34" Margin="136,174,0,0" VerticalAlignment="Top" Width="116" BorderBrush="{DynamicResource Button.Pressed.Background}" BorderThickness="0" Click="Button_Click" Background="White">
             <Button.Content>
                 <Border CornerRadius="5" Height="30.5" Width="114" Margin="0" BorderBrush="Red" BorderThickness="2" >
                     <TextBlock Text="OK !" HorizontalAlignment="Center" VerticalAlignment="Center" FontWeight="Bold"/>
