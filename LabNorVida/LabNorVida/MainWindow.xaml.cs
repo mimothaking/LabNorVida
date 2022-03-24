@@ -17,20 +17,20 @@ using System.Data;
 
 namespace LabNorVida
 {
-   
+
     public partial class MainWindow : Window
     {
 
-        
+
 
 
 
         public MainWindow()
         {
             InitializeComponent();
-            
-        }
 
+        }
+               
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
@@ -106,6 +106,8 @@ namespace LabNorVida
         private void RegisterButton_Click_1(object sender, RoutedEventArgs e)
         {
             //Adding a new user
+            
+           
 
             DB db = new DB();
             MySqlCommand command = new MySqlCommand("INSERT INTO `technicien`(`Fullname`, `Username`, `Password`) VALUES (@Fullname, @usn, @pass)", db.GetConnection());
