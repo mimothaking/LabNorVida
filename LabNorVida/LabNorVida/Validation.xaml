@@ -1,0 +1,46 @@
+﻿<Window x:Class="LabNorVida.Validation"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabNorVida"
+        mc:Ignorable="d"
+        Title="Validation" Height="720" Width="1280" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontSize="18">
+    <Grid>
+        <Button Content="Imprimer" HorizontalAlignment="Left" Height="42" Margin="309,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
+        <Button Content="Terminer" HorizontalAlignment="Left" Height="42" Margin="715.5,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
+        <Label Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="79.5" Margin="391.5,67.5,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
+        <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6 " HorizontalAlignment="Left" Height="37.5" Margin="285,122.577,0,0" VerticalAlignment="Top" Width="535.5"/>
+        <Border BorderBrush="#FF41B664" BorderThickness="3,19,3,3" HorizontalAlignment="Left" Height="270.077" Margin="271.5,34.5,0,0" VerticalAlignment="Top" Width="717"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="330,165.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="570,165.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="810,165.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6 " HorizontalAlignment="Left" Height="37.5" Margin="285,212.577,0,0" VerticalAlignment="Top" Width="535.5"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="330,255.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,285,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="570,255.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,285,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="810,255.077,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,285,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="79.5" Margin="391.5,378,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
+        <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6 " HorizontalAlignment="Left" Height="37.5" Margin="285,433.077,0,0" VerticalAlignment="Top" Width="535.5"/>
+        <Border BorderBrush="#FF41B664" BorderThickness="3,19,3,3" HorizontalAlignment="Left" Height="270.077" Margin="271.5,345,0,0" VerticalAlignment="Top" Width="717"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="330,475.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="570,475.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="810,475.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6 " HorizontalAlignment="Left" Height="37.5" Margin="285,523.077,0,0" VerticalAlignment="Top" Width="535.5"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="330,565.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,595.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="570,565.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,595.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label Content="Valeur 1" HorizontalAlignment="Left" Height="36" Margin="810,565.577,0,0" VerticalAlignment="Top" Width="126"/>
+        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,595.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+
+    </Grid>
+</Window>

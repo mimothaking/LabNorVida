@@ -34,6 +34,7 @@ namespace LabNorVida
 
         private void LoginButton_Click(object sender, RoutedEventArgs e)
         {
+            //Longin verification!
             DB db = new DB();
 
             String username = Username.Text;
@@ -53,7 +54,7 @@ namespace LabNorVida
             adapter.Fill(table);
 
 
-            //Checking if the user exists or not !
+            //Checking if the user exists or not + saving the username in a global variable !
             if (table.Rows.Count > 0)
             {
                 Globals.usrName = table.Rows[0]["Username"].ToString();
@@ -81,20 +82,12 @@ namespace LabNorVida
 
         private void Username_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            String uname = Username.Text;
-            if (uname.Equals("Username"))
-            {
-                Username.Text = "";
-            }
+           
         }
 
         private void Password_MouseDoubleClick(object sender, MouseButtonEventArgs e)
         {
-            String pswd = Password.Password;
-            if (pswd.Equals("Password"))
-            {
-                Password.Password = "";
-            }
+           
         }
 
 
@@ -107,9 +100,6 @@ namespace LabNorVida
         private void RegisterButton_Click_1(object sender, RoutedEventArgs e)
         {
             //Adding a new user
-            
-           
-
             DB db = new DB();
             MySqlCommand command = new MySqlCommand("INSERT INTO `technicien`(`Fullname`, `Username`, `Password`) VALUES (@Fullname, @usn, @pass)", db.GetConnection());
 
