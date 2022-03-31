@@ -14,14 +14,17 @@ using System.Windows.Shapes;
 
 namespace LabNorVida
 {
-    /// <summary>
-    /// Interaction logic for Validation.xaml
-    /// </summary>
+    
     public partial class Validation : Window
     {
         public Validation()
         {
             InitializeComponent();
+        }
+
+        private void Grid_Loaded(object sender, RoutedEventArgs e)
+        {
+            mvrac1.Content = Globals.mVrac;
         }
     }
 }

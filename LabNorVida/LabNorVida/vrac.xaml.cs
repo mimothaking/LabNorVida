@@ -38,7 +38,7 @@ namespace LabNorVida
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter();
 
-            MySqlCommand command = new MySqlCommand("INSERT INTO `echantillon`(`referance `, `dateEssai`, `classeGra`,`typeConteneur `,`vrac `,`porosite `,`cBalance `,`cConteneur `,`cThermo `,`cEtuve ` ) VALUES (@ref, @date, @classe, @type, @cbalance, @cconteneur, @cthermo, @cetuve)", db.GetConnection());
+            MySqlCommand command = new MySqlCommand("INSERT INTO `echantillon`(`referance`, `dateEssai`, `classeGra`,`typeConteneur`,`cBalance`,`cConteneur`,`cThermo`,`cEtuve` ) VALUES (@ref, @date, @classe, @type, @cbalance, @cconteneur, @cthermo, @cetuve)", db.GetConnection());
 
             command.Parameters.Add("@ref", MySqlDbType.Int32).Value = referance.Text ;
             command.Parameters.Add("@date", MySqlDbType.DateTime).Value = dateEchantillon.Text;
@@ -49,9 +49,7 @@ namespace LabNorVida
             command.Parameters.Add("@cthermo", MySqlDbType.VarChar).Value = thermo.Text;
             command.Parameters.Add("@cetuve", MySqlDbType.VarChar).Value = etuve.Text;
 
-            adapter.SelectCommand = command;
 
-            adapter.Fill(table);
 
 
             //open Connection
@@ -61,7 +59,31 @@ namespace LabNorVida
                 //execute query
                 if (command.ExecuteNonQuery() == 1)
                 {
-                      Validation valid = new Validation();
+
+                //Stocking variables ! 
+                Globals.mce1 = float.Parse(mce1.Text);
+                Globals.mce2 = float.Parse(mce2.Text);
+                Globals.mce3 = float.Parse(mce3.Text);
+                Globals.mcv1 = float.Parse(mcv1.Text);
+                Globals.mcv2 = float.Parse(mcv2.Text);
+                Globals.mcv3 = float.Parse(mcv3.Text);
+                Globals.me1 = float.Parse(me1.Text);
+                Globals.me2 = float.Parse(me2.Text);
+                Globals.me3 = float.Parse(me3.Text);
+                Globals.vc1 = float.Parse(vc1.Text);
+                Globals.vc2 = float.Parse(vc2.Text);
+                Globals.vc3 = float.Parse(vc3.Text);
+                Globals.mvr1 = float.Parse(mvr1.Text);
+                Globals.mvr2 = float.Parse(mvr2.Text);
+                Globals.mvr3 = float.Parse(mvr3.Text);
+
+
+                //calling vrac calculation methode !
+                Calculations calc = new Calculations();
+                calc.CalculerVrac();
+
+                //Opening the validation tab
+                Validation valid = new Validation();
                        this.Hide();
                       valid.Show();
                 }

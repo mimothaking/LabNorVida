@@ -1480,13 +1480,13 @@
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label8_Copy1">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr1">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr2">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr3">
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="1"/>
             </DoubleAnimationUsingKeyFrames>
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="label9_Copy1">
@@ -1528,13 +1528,13 @@
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label8_Copy1">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox2_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr1">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox3_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr2">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox4_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr3">
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Visible}"/>
             </ObjectAnimationUsingKeyFrames>
             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="label9_Copy1">
@@ -1630,15 +1630,15 @@
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox2_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr1">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox3_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr2">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
-            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="textBox4_Copy1">
+            <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="mvr3">
                 <EasingDoubleKeyFrame KeyTime="0" Value="1"/>
                 <EasingDoubleKeyFrame KeyTime="0:0:0.2" Value="0"/>
             </DoubleAnimationUsingKeyFrames>
@@ -1694,15 +1694,15 @@
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox2_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr1">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox3_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr2">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
-            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="textBox4_Copy1">
+            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="mvr3">
                 <DiscreteObjectKeyFrame KeyTime="0" Value="{x:Static Visibility.Visible}"/>
                 <DiscreteObjectKeyFrame KeyTime="0:0:0.2" Value="{x:Static Visibility.Hidden}"/>
             </ObjectAnimationUsingKeyFrames>
@@ -1898,9 +1898,9 @@
             <Path x:Name="path6_Copy" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden" d:IsLocked="True"/>
             <Path x:Name="path7_Copy" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="473.847,153.74,0,-101.48" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label8_Copy1" Content="Masse du conteneur vide (Kg)" HorizontalAlignment="Left" Height="37" Margin="18,171.5,0,-154.24" VerticalAlignment="Top" Width="360" FontSize="18" FontWeight="Bold" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox2_Copy1" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox3_Copy1" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
-            <TextBox x:Name="textBox4_Copy1" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="mvr1" local:TextboxExtensions.Placeholder="Valeur 1" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="23.336,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="mvr2" local:TextboxExtensions.Placeholder="Valeur 2" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="243.347,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
+            <TextBox x:Name="mvr3" local:TextboxExtensions.Placeholder="Valeur 3" BorderThickness="0" HorizontalAlignment="Left" Height="20.74" Margin="476.692,215.5,0,-181.98" TextWrapping="Wrap" VerticalAlignment="Top" Width="168" TextAlignment="Center" BorderBrush="White" Opacity="0" Visibility="Hidden"/>
             <Label x:Name="label9_Copy1" Content="[ m1 ]" HorizontalAlignment="Left" Height="30.527" Margin="594.384,171.5,0,-147.767" VerticalAlignment="Top" Width="50.308" FontSize="16" Foreground="#FF646464" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path5_Copy1" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="20.504,236.24,0,-183.98" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.5" Opacity="0" Visibility="Hidden"/>
             <Path x:Name="path6_Copy1" Data="M141,234 L367,234" Fill="#FFEBEBEB" HorizontalAlignment="Left" Height="2" Margin="240.502,236.24,0,-183.98" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="5" VerticalAlignment="Top" Width="173.502" Opacity="0" Visibility="Hidden"/>
@@ -2013,6 +2013,9 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </ComboBox.RenderTransform>
+                <ComboBoxItem>4</ComboBoxItem>
+                <ComboBoxItem IsSelected="True">16</ComboBoxItem>
+                <ComboBoxItem>31.5</ComboBoxItem>
             </ComboBox>
             <Path x:Name="path2" Data="M43.5,357 L206,357" Fill="#FF282828" HorizontalAlignment="Left" Height="1" Margin="-234.5,358.67,0,0" Stretch="Fill" Stroke="#FF41B664" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
                 <Path.RenderTransform>
@@ -2043,6 +2046,9 @@
                         <TranslateTransform/>
                     </TransformGroup>
                 </ComboBox.RenderTransform>
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem IsSelected="True">5</ComboBoxItem>
+                <ComboBoxItem>10</ComboBoxItem>
             </ComboBox>
             <Path x:Name="path3" Data="M43.5,357 L206,357" Fill="#FF282828" HorizontalAlignment="Left" Height="1" Margin="-234.5,465.17,0,0" Stretch="Fill" Stroke="#FF41B664" VerticalAlignment="Top" Width="152" RenderTransformOrigin="0.5,0.5" Visibility="Hidden">
                 <Path.RenderTransform>
