@@ -35,8 +35,7 @@ namespace LabNorVida
         {
             //Adding a new echantillon
             DB db = new DB();
-            DataTable table = new DataTable();
-            MySqlDataAdapter adapter = new MySqlDataAdapter();
+          
 
             MySqlCommand command = new MySqlCommand("INSERT INTO `echantillon`(`referance`, `dateEssai`, `classeGra`,`typeConteneur`,`cBalance`,`cConteneur`,`cThermo`,`cEtuve` ) VALUES (@ref, @date, @classe, @type, @cbalance, @cconteneur, @cthermo, @cetuve)", db.GetConnection());
 
@@ -73,14 +72,16 @@ namespace LabNorVida
                 Globals.vc1 = float.Parse(vc1.Text);
                 Globals.vc2 = float.Parse(vc2.Text);
                 Globals.vc3 = float.Parse(vc3.Text);
-                Globals.mvr1 = float.Parse(mvr1.Text);
-                Globals.mvr2 = float.Parse(mvr2.Text);
-                Globals.mvr3 = float.Parse(mvr3.Text);
+                Globals.mvreelle1 = float.Parse(mvr1.Text);
+                Globals.mvreelle2 = float.Parse(mvr2.Text);
+                Globals.mvreelle3 = float.Parse(mvr3.Text);
+
 
 
                 //calling vrac calculation methode !
                 Calculations calc = new Calculations();
                 calc.CalculerVrac();
+                calc.CalculerPorosite();
 
                 //Opening the validation tab
                 Validation valid = new Validation();

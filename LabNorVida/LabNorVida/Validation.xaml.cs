@@ -24,7 +24,20 @@ namespace LabNorVida
 
         private void Grid_Loaded(object sender, RoutedEventArgs e)
         {
-            mvrac1.Content = Globals.mVrac;
+
+            //Replacing labels (vrac) with values !
+            mvrac1.Content = Globals.vrac1;
+            mvrac2.Content = Globals.vrac2;
+            mvrac3.Content = Globals.vrac3;
+            moyennevrac.Content = Globals.mVrac;
+
+            //Replacing labels (porosité) with values !
+            poro1.Content = Globals.pi1;
+            poro2.Content = Globals.pi2;
+            poro3.Content = Globals.pi3;
+            moyenneporo.Content = Globals.mporosite;
+
+
         }
     }
 }

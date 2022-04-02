@@ -39,11 +39,14 @@ namespace LabNorVida
         public static float mvv1;
         public static float mvv2;
         public static float mvv3;
+        public static float vrac1;
+        public static float vrac2;
+        public static float vrac3;
 
         //Poro variables
-        public static float mvr1;
-        public static float mvr2;
-        public static float mvr3;
+        public static float mvreelle1;
+        public static float mvreelle2;
+        public static float mvreelle3;
         public static float pi1;
         public static float pi2;
         public static float pi3;
