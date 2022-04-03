@@ -37,6 +37,18 @@ namespace LabNorVida
             poro3.Content = Globals.pi3;
             moyenneporo.Content = Globals.mporosite;
 
+            //Conditional styling vrac
+            if (Globals.mVrac > 10)
+            {
+                vracBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+
+            //Conditional styling poro
+            if (Globals.mporosite > 10)
+            {
+                poroBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+            }
+
 
         }
     }
