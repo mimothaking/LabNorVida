@@ -9,30 +9,30 @@
     <Grid Loaded="Grid_Loaded">
         <Button Content="Imprimer" HorizontalAlignment="Left" Height="42" Margin="309,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
         <Button Content="Terminer" HorizontalAlignment="Left" Height="42" Margin="715.5,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
-        <Label Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="79.5" Margin="391.5,67.5,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
+        <Label x:Name="vracLabel" Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="79.5" Margin="391.5,67.5,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
         <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6) (Mg/m3)" HorizontalAlignment="Left" Height="37.5" Margin="285,122.577,0,0" VerticalAlignment="Top" Width="612"/>
         <Border x:Name="vracBorder" BorderBrush="#FF41B664" BorderThickness="3,19,3,3" HorizontalAlignment="Left" Height="270.077" Margin="271.5,34.5,0,0" VerticalAlignment="Top" Width="717"/>
         <Label x:Name="mvrac1" Content="." HorizontalAlignment="Left" Height="36" Margin="360,165.077,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path x:Name="vracPath1" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label x:Name="mvrac2" Content="." HorizontalAlignment="Left" Height="36" Margin="592.5,165.077,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path  x:Name="vracPath2" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label x:Name="mvrac3" Content="." HorizontalAlignment="Left" Height="36" Margin="825,165.077,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path  x:Name="vracPath3" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,195,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label Content="Masse volumique en vrac moyenne (Mg/m3)" HorizontalAlignment="Left" Height="37.5" Margin="285,212.577,0,0" VerticalAlignment="Top" Width="535.5"/>
         <Label x:Name="moyennevrac" Content="." HorizontalAlignment="Left" Height="36" Margin="594,253.577,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,285,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
-        <Label Content="Mesure de la porosité intergranulaire" HorizontalAlignment="Left" Height="79.5" Margin="391.5,378,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
+        <Path  x:Name="vracPath4" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,285,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Label  x:Name="poroLabel" Content="Mesure de la porosité intergranulaire" HorizontalAlignment="Left" Height="79.5" Margin="391.5,378,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
         <Label Content="La porosité intergranulaire (V = ((Pp -Pb)/Pp) x 100) (%)" HorizontalAlignment="Left" Height="37.5" Margin="285,433.077,0,0" VerticalAlignment="Top" Width="535.5"/>
         <Border  x:Name="poroBorder"  BorderBrush="#FF41B664" BorderThickness="3,19,3,3" HorizontalAlignment="Left" Height="270.077" Margin="271.5,345,0,0" VerticalAlignment="Top" Width="717"/>
         <Label x:Name="poro1" Content="." HorizontalAlignment="Left" Height="36" Margin="351,475.577,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path  x:Name="poroPath1" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="276,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label x:Name="poro2" Content="." HorizontalAlignment="Left" Height="36" Margin="591,475.577,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path x:Name="poroPath2" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label x:Name="poro3" Content="." HorizontalAlignment="Left" Height="36" Margin="831,475.577,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path x:Name="poroPath3" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="756,505.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
         <Label Content="La porosité intergranulaire (%)" HorizontalAlignment="Left" Height="37.5" Margin="285,523.077,0,0" VerticalAlignment="Top" Width="535.5"/>
         <Label x:Name="moyenneporo" Content="." HorizontalAlignment="Left" Height="36" Margin="588,565.577,0,0" VerticalAlignment="Top" Width="126"/>
-        <Path Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,595.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
+        <Path x:Name="poroPath4" Data="M199.5,445.5 L357,445.5" Fill="White" HorizontalAlignment="Left" Height="3" Margin="516,595.5,0,0" Stretch="Fill" Stroke="#FF41B664" StrokeThickness="19" VerticalAlignment="Top" Width="175"/>
 
     </Grid>
 </Window>
