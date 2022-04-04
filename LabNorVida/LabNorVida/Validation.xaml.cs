@@ -64,19 +64,7 @@ namespace LabNorVida
         }
         private void imp_button_Click_1(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                this.IsEnabled = false;
-                PrintDialog printDialog = new PrintDialog();
-                if (printDialog.ShowDialog() == true)
-                {
-                    printDialog.PrintVisual(print, "Validation");
-                }
-            }
-            finally
-            {
-                this.IsEnabled = true;
-            }
+            
         }
 
         private void btn_ter_Click_1(object sender, RoutedEventArgs e)

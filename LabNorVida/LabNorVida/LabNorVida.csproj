@@ -183,5 +183,8 @@
   <ItemGroup>
     <Resource Include="VerifySuccess.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="logoLabBlack.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
