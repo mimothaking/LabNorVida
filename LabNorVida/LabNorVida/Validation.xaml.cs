@@ -37,6 +37,29 @@ namespace LabNorVida
             poro3.Content = Globals.pi3;
             moyenneporo.Content = Globals.mporosite;
 
+            //Conditional styling vrac
+            if (Globals.mVrac > 10)
+            {
+                vracBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+                vracLabel.Foreground = new SolidColorBrush(Colors.Red);
+                vracPath1.Stroke = new SolidColorBrush(Colors.Red);
+                vracPath2.Stroke = new SolidColorBrush(Colors.Red);
+                vracPath3.Stroke = new SolidColorBrush(Colors.Red);
+                vracPath4.Stroke = new SolidColorBrush(Colors.Red);
+
+            }
+
+            //Conditional styling poro
+            if (Globals.mporosite > 10)
+            {
+                poroBorder.BorderBrush = new SolidColorBrush(Colors.Red);
+                poroLabel.Foreground = new SolidColorBrush(Colors.Red);
+                poroPath1.Stroke = new SolidColorBrush(Colors.Red);
+                poroPath2.Stroke = new SolidColorBrush(Colors.Red);
+                poroPath3.Stroke = new SolidColorBrush(Colors.Red);
+                poroPath4.Stroke = new SolidColorBrush(Colors.Red);
+            }
+
 
         }
         private void imp_button_Click_1(object sender, RoutedEventArgs e)
