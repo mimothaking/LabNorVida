@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="Validation" Height="720" Width="1280" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" FontSize="18">
     <Grid Loaded="Grid_Loaded">
-        <Button Content="Imprimer" HorizontalAlignment="Left" Height="42" Margin="309,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
+        <Button Content="Imprimer" HorizontalAlignment="Left" Height="42" Margin="309,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontSize="18" FontFamily="Microsoft YaHei UI" FontWeight="Bold" Click="Button_Click"/>
         <Button Content="Terminer" HorizontalAlignment="Left" Height="42" Margin="715.5,651,0,0" VerticalAlignment="Top" Width="244.5" BorderBrush="#FF41B664" BorderThickness="2.5" Background="White" FontFamily="Microsoft YaHei UI" FontWeight="Bold"/>
         <Label x:Name="vracLabel" Content="Mesure de masse volumique en VRAC" HorizontalAlignment="Left" Height="79.5" Margin="391.5,67.5,0,0" VerticalAlignment="Top" Width="478.5" FontSize="26" Foreground="#FF41B664" FontWeight="Bold"/>
         <Label Content="Masse volumique en vrac (pb = (m1-m2)/v = ((m1-m2)/v) x 10^-6) (Mg/m3)" HorizontalAlignment="Left" Height="37.5" Margin="285,122.577,0,0" VerticalAlignment="Top" Width="612"/>

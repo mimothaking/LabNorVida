@@ -91,3 +91,5 @@ C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Print
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Validation.g.cs
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Printform.baml
 C:\Users\kaoua\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Validation.baml
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Printform.g.cs
+C:\Users\Lmimot\Documents\GitHub\LabNorVida\LabNorVida\LabNorVida\obj\Debug\Printform.baml

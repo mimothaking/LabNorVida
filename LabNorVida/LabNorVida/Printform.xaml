@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:LabNorVida"
         mc:Ignorable="d"
-        Title="Printform" Height="791.167" Width="624" Background="White">
+        Title="Printform" Height="791.167" Width="624" Background="White" Loaded="Window_Loaded">
     <Grid Margin="0,-4,2,4">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="494*"/>
@@ -90,7 +90,7 @@
             <Label Content="m" Margin="13,-4,12,1"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="16,311,0,0" VerticalAlignment="Top" Width="217" RenderTransformOrigin="0.5,0.5">
-            <Label Content="Masse de conteneur vide    (KG)" Margin="-2,-4,9,-1" FontSize="11"/>
+            <Label Content="Volume du conteneur                      (m3)" Margin="-2,-4,9,-1" FontSize="11"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="288,311,0,0" VerticalAlignment="Top" Width="94"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="381,311,0,0" VerticalAlignment="Top" Width="110"/>
@@ -119,7 +119,7 @@
             <Label Content="Mesure de la porosité intergranulaire :" Margin="187,-4,153,-4"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="16,411,0,0" VerticalAlignment="Top" Width="217" RenderTransformOrigin="0.5,0.5">
-            <Label Content="Masse de l'échantillon   (g)" Margin="-2,-5,9,-2" FontSize="11"/>
+            <Label Content="Masse volumique en vrac moyenne :  " Margin="-2,-5,9,-2" FontSize="11"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="288,411,0,0" VerticalAlignment="Top" Width="94"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="381,411,0,0" VerticalAlignment="Top" Width="110"/>
@@ -128,7 +128,7 @@
             <Label Content="Pb" Margin="13,-4,12,1" FontStyle="Italic"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="16,432,0,0" VerticalAlignment="Top" Width="217" RenderTransformOrigin="0.5,0.5">
-            <Label Content="Masse de conteneur vide    (KG)" Margin="-2,-4,9,-1" FontSize="11"/>
+            <Label Content="Masse volumique réelle             (Mg/m3)" Margin="-2,-4,9,-1" FontSize="11"/>
         </Border>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="288,432,0,0" VerticalAlignment="Top" Width="94"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="22" Margin="381,432,0,0" VerticalAlignment="Top" Width="110"/>
@@ -188,6 +188,41 @@
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="48" Margin="16,675,0,0" VerticalAlignment="Top" Width="194"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="48" Margin="209,675,0,0" VerticalAlignment="Top" Width="195"/>
         <Border BorderBrush="Black" BorderThickness="1" HorizontalAlignment="Left" Height="48" Margin="403,675,0,0" VerticalAlignment="Top" Width="194" Grid.ColumnSpan="2"/>
+        <Label x:Name="reference" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="27.333" Margin="55.136,14.333,0,0" VerticalAlignment="Top" Width="65.667"/>
+        <Label x:Name="Date" Content="" Grid.Column="1" HorizontalAlignment="Left" Height="27.333" Margin="55.136,47.668,0,0" VerticalAlignment="Top" Width="65.667"/>
+        <Label x:Name="reference_Copy" Content="" HorizontalAlignment="Left" Height="27.333" Margin="143.647,124.34,0,0" VerticalAlignment="Top" Width="65.667"/>
+        <Label x:Name="ClassGra" Content="" HorizontalAlignment="Left" Height="27.333" Margin="121.645,161.674,0,0" VerticalAlignment="Top" Width="176.355"/>
+        <Label x:Name="TypeConteneur" Content="" HorizontalAlignment="Left" Height="27.333" Margin="130.983,182.342,0,0" VerticalAlignment="Top" Width="176.355"/>
+        <Label x:Name="mcv1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="295.029,245.677,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mcv2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="395.034,245.677,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mcv3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="14.505,245.677,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="mce1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="293.691,266.345,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mce2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="400.363,266.345,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mce3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="8.502,266.345,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="me1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="295.022,287.677,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="me2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="395.027,287.677,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="me3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="11.832,287.677,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="vc1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="295.017,308.345,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="vc2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="395.022,308.345,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="vc3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="8.495,308.345,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="vrac1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="294.345,337.014,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="vrac2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="395.684,337.014,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="vrac3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="9.157,337.014,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="mvrac" Content="" HorizontalAlignment="Left" Height="27.333" Margin="383.009,366.347,0,0" VerticalAlignment="Top" Width="158.994" Grid.ColumnSpan="2"/>
+        <Label x:Name="mvrac1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="295.671,409.014,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mvrac2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="397.01,409.014,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mvrac3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="9.816,409.014,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="mvr1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="296.336,429.682,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mvr2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="397.008,429.682,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="mvr3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="10.482,429.682,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="poro1" Content="" HorizontalAlignment="Left" Height="27.333" Margin="294.334,454.349,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="poro2" Content="" HorizontalAlignment="Left" Height="27.333" Margin="395.673,454.349,0,0" VerticalAlignment="Top" Width="80.971"/>
+        <Label x:Name="poro3" Content="" HorizontalAlignment="Left" Height="27.333" Margin="9.147,454.349,0,0" VerticalAlignment="Top" Width="80.971" Grid.Column="1"/>
+        <Label x:Name="mporo" Content="" HorizontalAlignment="Left" Height="27.333" Margin="392.337,479.016,0,0" VerticalAlignment="Top" Width="163"/>
+        <Label x:Name="cBalance" Content="" HorizontalAlignment="Left" Height="27.333" Margin="191.66,583.687,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="cConteneur" Content="" HorizontalAlignment="Left" Height="27.333" Margin="278.331,583.687,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="cThermo" Content="" HorizontalAlignment="Left" Height="27.333" Margin="365.002,583.687,0,0" VerticalAlignment="Top" Width="81"/>
+        <Label x:Name="cEtuve" Content="" HorizontalAlignment="Left" Height="27.333" Margin="451.006,583.687,0,0" VerticalAlignment="Top" Width="81" Grid.ColumnSpan="2"/>
 
     </Grid>
 </Window>

@@ -75,7 +75,14 @@ namespace LabNorVida
                 Globals.mvreelle1 = float.Parse(mvr1.Text);
                 Globals.mvreelle2 = float.Parse(mvr2.Text);
                 Globals.mvreelle3 = float.Parse(mvr3.Text);
-
+                Globals.referance = int.Parse(referance.Text);
+                Globals.dateEssai = DateTime.Parse(dateEchantillon.Text);
+                Globals.classGra =float.Parse( classGra.Text);
+                Globals.typeConteneur = int.Parse(typeConteneur.Text);
+                Globals.cBalance = balance.Text;
+                Globals.cConteneur = conteneur.Text;
+                Globals.cThermo = thermo.Text;
+                Globals.cEtuve = etuve.Text;
 
 
                 //calling vrac calculation methode !
